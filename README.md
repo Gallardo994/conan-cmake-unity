@@ -42,9 +42,9 @@ You may also create your own profile if needed.
     ```
 3. After the dependencies are installed, run the following command to build the library:
     ```bash
-    conan build . --profile=profiles/android-arm64-release
+    conan build . --profile=profiles/macos-arm64-release
     ```
-4. The compiled library will be located in the `build` directory, typically inside `build/modules/samplelibrary/` directory.
+4. The compiled library will be located in the `build` directory, typically inside `build/modules/samplelibrary/` directory. In MacOS case, the artifact will be the `libsamplelibrary.dylib` file.
 
 ## Using the library in Unity
 
